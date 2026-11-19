@@ -1,0 +1,63 @@
+/* =========================================
+   SELECTORES AVANZADOS Y ESPECÍFICOS
+   ========================================= */
+
+/* 1. Selector Universal y de Tipo combinados para enlaces específicos */
+section a[href^="#"] {
+    position: relative;
+}
+
+/* 2. Selector de Atributo exacto para inputs de tipo texto, email y número */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 3. Selector de Estado (:focus) para campos de entrada interactivos */
+input:focus, 
+textarea:focus {
+    box-shadow: 0 0 0 3px rgba(34, 226, 200, 0.2);
+    outline: none;
+}
+
+/* 4. Selector de Atributo con comodín para archivos */
+input[type="file"] {
+    cursor: pointer;
+    color: var(--text-secondary);
+}
+
+/* 5. Selectores de hermanos adyacentes y descendientes directos en listas */
+.soft-skills-list > li:nth-child(odd) {
+    border-color: rgba(34, 226, 200, 0.3);
+}
+
+.soft-skills-list > li:nth-child(even) {
+    border-color: var(--border-color);
+}
+
+/* 6. Selector de Estado para opciones seleccionadas en formularios */
+input[type="radio"]:checked + span,
+input[type="checkbox"]:checked + span {
+    color: var(--accent-cyan);
+    font-weight: 600;
+}
+
+/* 7. Selector de Pseudoclase :required para marcar campos obligatorios visualmente */
+input:required {
+    border-left: 3px solid var(--accent-cyan);
+}
+
+/* 8. Selector Descendiente avanzado para las celdas de la tabla de referencia */
+.tabla-referencia tbody tr td:first-child {
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* 9. Pseudoclase :hover interactiva para las filas de las tablas */
+.tabla-experiencia tbody tr:hover,
+.tabla-referencia tbody tr:hover {
+    background-color: rgba(34, 226, 200, 0.03);
+}

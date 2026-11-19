@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Carreño | Portafolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modelos-cajas.css">
+    <link rel="stylesheet" href="css/selectores.css">
+    <link rel="stylesheet" href="css/display-flex.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap');
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span class="redaction-50-regular">DANIEL.DEV</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#experiencia-laboral">Experiencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="detalles.html" class="nav-destacado">Bitácora</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero-section">
+        <div class="hero-content">
+            <h1>Hola, soy Daniel Carreño</h1>
+            <h2 class="subtitulo-rol">DESARROLLADOR DE SOFTWARE JUNIOR EN FORMACION</h2>
+            <p>
+                Apasionado por la resolución de problemas, la lógica de programación y la construcción de software limpio. 
+                Enfoque en consolidar sólidas bases técnicas en Python, control de versiones con Git/GitHub y arquitectura modular.
+            </p>
+            <div class="hero-buttons">
+                <a href="#proyectos" class="btn-primary">Proyectos</a>
+                <a href="#contacto" class="btn-secondary">Contáctame</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="circulo-perfil">
+                <span class="card-top-title">DANIEL.CARREÑO</span>
+                <h3>Aprender. Resolver. Construir.</h3>
+                <p class="card-role">Desarrollo de Software</p>
+                <p class="card-inst">Campuslands · Nivel Trainee</p>
+                <span class="badge-activo">En formación activa</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="sobre-mi-section">
+        <div class="sobre-mi-container">
+            <div class="sobre-mi-texto">
+                <h2>Sobre mi</h2>
+                <p>
+                    Hola, soy Daniel, desarrollador de software en nivel trainee. Actualmente me encuentro formándome en CampusLand, 
+                    desarrollando mis conocimientos en programación y tecnologías de desarrollo web. Me interesa aprender nuevas tecnologías, 
+                    resolver problemas y construir soluciones mediante el desarrollo de software.
+                </p>
+            </div>
+            <div class="sobre-mi-visual">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Formación</h3>
+                        <p>Campuslands / Desarrollo de Software</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>Áreas de Interés</h3>
+                        <p>Lógica de programación, control de versiones, diseño modular</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="habilidades-section">
+        <div class="habilidades-container">
+            <h2>_habilidades_</h2>
+            <p class="subtitulo-seccion">Tecnologías y competencias profesionales</p>
+            <div class="habilidades-bloque">
+                <h3>Habilidades tecnológicas</h3>
+                <div class="skill-grid">
+                    <div class="skill-card">
+                        <span class="skill-icon"></span>
+                        <h4>Python</h4>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon"></span>
+                        <h4>HTML5</h4>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon"></span>
+                        <h4>CSS3</h4>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon"></span>
+                        <h4>Git</h4>
+                    </div>
+                    <div class="skill-card">
+                        <span class="skill-icon"></span>
+                        <h4>GitHub</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="habilidades-bloque">
+                <h3>Otras habilidades</h3>
+                <ul class="soft-skills-list">
+                    <li>Control de inventarios</li>
+                    <li>Organización y planificación</li>
+                    <li>Atención al cliente</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Resolución de problemas</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="proyectos-section">
+        <div class="proyectos-container">
+            <h2>Proyectos</h2>
+            <p class="subtitulo-seccion">Soluciones desarrolladas aplicando lógica de programación, modularidad y diseño web</p>
+            <div class="proyectos-grid">
+                <article class="proyecto-card">
+                    <div class="proyecto-imagen">
+                        <img src="img/proyecto-drivesafe.png" alt="Vista previa del sistema Academia DriveSafe">  
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>Academia DriveSafe</h3>
+                        <p>
+                            Sistema de gestión de citas para una academia de conducción, desarrollado en Python, 
+                            utilizando funciones, módulos y almacenamiento de información mediante archivos JSON.
+                        </p>
+                        <ul class="proyecto-tech-list">
+                            <li>Python</li>
+                            <li>JSON</li>
+                            <li>Arquitectura Modular</li>
+                        </ul>
+                        <div class="proyecto-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="btn-proyecto">Ver Código</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="proyecto-card">
+                    <div class="proyecto-imagen">
+                        <img src="img/proyecto-portafolio.png" alt="Vista previa del Portafolio personal de Daniel Carreño">
+                    </div>
+                    <div class="proyecto-info">
+                        <h3>Portafolio personal</h3>
+                        <p>
+                            Página web personal desarrollada con HTML y CSS, diseñada para presentar mi información, 
+                            habilidades, experiencia laboral y proyectos.
+                        </p>
+                        <ul class="proyecto-tech-list">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Figma</li>
+                        </ul>
+                        <div class="proyecto-links">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="btn-proyecto">Ver Código</a>
+                            <a href="#inicio" class="btn-demo">Demo en vivo</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencia-laboral" class="experiencia-section">
+        <div class="experiencia-container">
+            <h2>Experiencia y formación</h2>
+            <p class="subtitulo-seccion">Trayectoria profesional y evolución en el entorno laboral y técnico</p>
+
+            <div class="experiencia-bloque">
+                <h3>Experiencia Laboral</h3>
+                <div class="tabla-contenedor">
+                    <table class="tabla-experiencia">
+                        <thead>
+                            <tr>
+                                <th>Empresa</th>
+                                <th>Cargo</th>
+                                <th>Área</th>
+                                <th>Responsabilidades</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Big John</strong></td>
+                                <td>Analista de Inventario</td>
+                                <td>Inventarios</td>
+                                <td>Control y organización de inventarios, despacho de mercancía y distribución de productos según la demanda.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Coca-Cola FEMSA</strong></td>
+                                <td>Operario / Logística</td>
+                                <td>Operaciones</td>
+                                <td>Experiencia en procesos operativos y actividades laborales.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Experiencias Anteriores</strong></td>
+                                <td>Atención al Cliente / Ventas</td>
+                                <td>Comercial</td>
+                                <td>Atención al cliente, ventas, manejo de caja y actividades de bodega. Experiencia en diferentes áreas laborales.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="experiencia-bloque">
+                <h3>Formación Académica</h3>
+                <div class="formacion-card">
+                    <h4>Campuslands</h4>
+                    <p class="formacion-programa">Desarrollo de Software (Nivel Trainee)</p>
+                    <p class="formacion-estado">Estado actual: En formación activa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto-section">
+        <div class="contacto-container">
+            <h2>_contacto_</h2>
+            <p class="subtitulo-seccion">¿Tienes una oportunidad laboral o deseas más información? Completa el formulario y me pondré en contacto contigo.</p>
+
+            <form action="#" method="POST" enctype="multipart/form-data" class="formulario-contacto">
+                <fieldset class="grupo-formulario">
+                    <legend>Información de Contacto</legend>
+
+                    <div class="campo-grupo">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+
+                    <div class="campo-grupo">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Tu apellido" required>
+                    </div>
+
+                    <div class="campo-grupo">
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                    </div>
+
+                    <div class="campo-grupo">
+                        <label for="edad">Edad:</label>
+                        <input type="number" id="edad" name="edad" min="15" max="99" placeholder="Ej. 25">
+                    </div>
+                </fieldset>
+
+                <fieldset class="grupo-formulario">
+                    <legend>Detalles y Preferencias</legend>
+
+                    <div class="campo-grupo">
+                        <label for="color">Color de referencia:</label>
+                        <input type="color" id="color" name="color" value="#00D2C2">
+                    </div>
+
+                    <div class="campo-grupo">
+                        <label for="fecha">Fecha sugerida:</label>
+                        <input type="date" id="fecha" name="fecha">
+                    </div>
+
+                    <div class="campo-grupo">
+                        <label for="hora">Hora sugerida:</label>
+                        <input type="time" id="hora" name="hora">
+                    </div>
+
+                    <div class="campo-grupo">
+                        <label for="archivo">Adjuntar archivo (CV o propuesta):</label>
+                        <input type="file" id="archivo" name="archivo">
+                    </div>
+                </fieldset>
+
+                <fieldset class="grupo-formulario">
+                    <legend>Clasificación y Perfil</legend>
+
+                    <div class="campo-opciones">
+                        <p>Sexo:</p>
+                        <label><input type="radio" name="sexo" value="femenino"> Femenino</label>
+                        <label><input type="radio" name="sexo" value="masculino"> Masculino</label>
+                    </div>
+
+                    <div class="campo-opciones">
+                        <p>Tipo de Solicitud:</p>
+                        <label><input type="radio" name="tipo_solicitud" value="informacion"> Solicitud de Información</label>
+                        <label><input type="radio" name="tipo_solicitud" value="oportunidad"> Oportunidad laboral</label>
+                        <label><input type="radio" name="tipo_solicitud" value="otro"> Otro</label>
+                    </div>
+
+                    <div class="campo-opciones">
+                        <p>Tecnologías que conozco:</p>
+                        <label><input type="checkbox" name="tecnologias[]" value="java"> Java</label>
+                        <label><input type="checkbox" name="tecnologias[]" value="python"> Python</label>
+                        <label><input type="checkbox" name="tecnologias[]" value="javascript"> JavaScript</label>
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="btn-primary">Enviar solicitud</button>
+            </form>
+
+            <div class="datos-complementarios">
+                <h3>Datos Complementarios</h3>
+                <p>Valores de referencia incluidos en la estructura técnica:</p>
+                
+                <div class="tabla-contenedor">
+                    <table class="tabla-referencia">
+                        <thead>
+                            <tr>
+                                <th rowspan="2">Categoría</th>
+                                <th colspan="2">Average</th>
+                                <th rowspan="2">Red eyes</th>
+                            </tr>
+                            <tr>
+                                <th>height</th>
+                                <th>weight</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Males</strong></td>
+                                <td>1.9</td>
+                                <td>0.003</td>
+                                <td>40%</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Females</strong></td>
+                                <td>1.7</td>
+                                <td>0.002</td>
+                                <td>43%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-principal">
+        <div class="footer-container">
+            <div class="footer-info">
+                <span class="logo-footer">DANIEL.DEV</span>
+                <p>Desarrollador de Software Junior en formación · Experiencia desde 2020</p>
+            </div>
+            
+            <ul class="footer-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#experiencia-laboral">Experiencia</a></li>
+            </ul>
+
+            <p class="copyright">© 2026 Daniel. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

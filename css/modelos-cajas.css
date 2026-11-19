@@ -1,0 +1,85 @@
+/* =========================================
+   MODELO DE CAJAS (BOX MODEL) Y DIMENSIONES
+   ========================================= */
+
+/* 1. Normalización estricta del modelo de cajas */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* 2. Contenedores generales con ancho máximo y centrado automático */
+.hero-section,
+.sobre-mi-container,
+.habilidades-container,
+.proyectos-container,
+.experiencia-container,
+.contacto-container,
+.footer-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 3. Márgenes y Rellenos internos (Padding y Margin) para Secciones */
+.hero-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.sobre-mi-section,
+.habilidades-section,
+.proyectos-section,
+.experiencia-section,
+.contacto-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* 4. Modelo de Cajas para Tarjetas y Contenedores Interactivos */
+.circulo-perfil,
+.info-card,
+.skill-card,
+.proyecto-card,
+.formacion-card,
+.formulario-contacto,
+.tabla-contenedor {
+    margin-bottom: 1.5rem;
+}
+
+/* 5. Control de dimensiones para botones (Caja de bloque en línea) */
+.btn-primary,
+.btn-secondary {
+    display: inline-block;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* 6. Márgenes específicos para títulos y subtítulos */
+h1, h2, h3, h4, p {
+    margin-top: 0;
+}
+
+.hero-content h1 {
+    margin-bottom: 1rem;
+}
+
+.subtitulo-rol,
+.subtitulo-seccion {
+    margin-bottom: 2rem;
+}
+
+/* 7. Ajustes de padding para los campos de los formularios */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="file"] {
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
